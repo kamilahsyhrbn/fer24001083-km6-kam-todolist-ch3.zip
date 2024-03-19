@@ -22,7 +22,7 @@ function movieList() {
   // console.log("movies", movies);
 
   const addMovie = (newMovie) => {
-    // Mengecek apakah item sudah ada dalam daftar belanjaan sebelumnya
+    // Mengecek apakah movie sudah ada dalam daftar movie sebelumnya
     const isDuplicate = movies.some(
       (
         movie // Membandingkan judul movie dengan judul newMovie (yang mau ditambahkan)
